@@ -9,6 +9,11 @@ export const features = [
     icons: "home-icons",
   },
   {
+    name: "Balances",
+    path: "/balances",
+    icons: "liquidity",
+  },
+  {
     name: "Liquidity",
     path: "/liquidity",
     icons: "liquidity",
@@ -45,7 +50,7 @@ export const Features = () => {
   const router = useRouter();
   return (
     <SimpleGrid
-      columns={[7]}
+      columns={[8]}
       color="text.primary"
       fontWeight={500}
       display={{
